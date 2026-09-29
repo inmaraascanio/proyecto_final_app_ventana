@@ -1,0 +1,57 @@
+QWidget#MainWindow, QWidget#TestWindow, QWidget#ResultWindow {
+    background-color: #F8F9FA;
+}
+
+QLabel {
+    color: #1E293B;
+    font-size: 14px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+QLabel#titleLabel {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0F172A;
+}
+
+QLabel#timer_label {
+    font-size: 42px;
+    font-weight: bold;
+    color: #020409;
+}
+
+QLabel#indexLabel {
+    font-size: 28px;
+    font-weight: bold;
+    color: #10B981;
+}
+
+QPushButton {
+    background-color: #7BB2D8;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #7BB2D8;
+}
+
+QPushButton:pressed {
+    background-color: #7BB2D8;
+}
+
+QLineEdit {
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: #FFFFFF;
+    color: #0F172A;
+}
+
+QLineEdit:focus {
+    border: 2px solid #7BB2D8;
+}
